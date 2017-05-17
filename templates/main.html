@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>threejs-test</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canv"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+        <script>
+            var canv = document.querySelector("#canv");
+            canv.setAttribute("width", window.innerWidth);
+            canv.setAttribute("height", window.innerHeight);
+            var socket = io();
+            
+        </script>
+    </body>
+</html>
